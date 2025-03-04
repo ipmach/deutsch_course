@@ -108,3 +108,53 @@ words:
       german: Foto
       article: das
       plural: Fotos
+
+    - english: appoitment 
+      german: Termin
+      article: der
+      plural: Termine
+
+    - english: mouse 
+      german: Mause
+      article: die
+      plural: Mäuse
+
+    - english: standard word for pen 
+      german: Stift
+      article: der
+      plural: Stifte
+
+    - english: screen 
+      german: Bildschirm
+      article: der
+      plural: Bildschirme
+
+    - english: chair 
+      german: Stuhl
+      article: der
+      plural: Stühle
+
+    - english: table
+      german: Tisch
+      article: der
+      plural: Tische
+
+    - english: wardrobe 
+      german: Schrank
+      article: der
+      plural: Schranke
+
+    - english: carpet 
+      german: Teppich
+      article: der
+      plural: Teppiche
+
+    - english: self
+      german: Regal
+      article: das
+      plural: Regale
+
+    - english: son
+      german: Sohn
+      article: der
+      plural: Söhne
