@@ -13,3 +13,98 @@ words:
       german: Tastatur
       article: die
       plural: Tastaturen
+
+    - english: glasses
+      german: Brille
+      article: die
+      plural: Brillen
+
+    - english: necklace 
+      german: Kette
+      article: die
+      plural: Ketten
+
+    - english: bottle 
+      german: Flasche
+      article: die
+      plural: Flaschen
+
+    - english: watch 
+      german: Uhr
+      article: die
+      plural: Uhren
+
+    - english: bed 
+      german: Bett
+      article: das
+      plural: Betten
+
+    - english: lamp
+      german: Lampe
+      article: die
+      plural: Lampen
+
+    - english: sister
+      german: Schwester
+      article: die
+      plural: Schwesteren
+
+    - english: wife
+      german: Frau
+      article: die
+      plural: Frauen
+
+    - english: uncle 
+      german: Onkel
+      article: der
+      plural: Onkeln
+
+    - english: laptop  
+      german: Laptop
+      article: der
+      plural: Laptops
+
+    - english: e-mail  
+      german: E-mail
+      article: die
+      plural: E-mails
+
+    - english: tablet
+      german: Tablet
+      article: das
+      plural: Tablets
+
+    - english: camera 
+      german: Kamera
+      article: die
+      plural: Kameras
+
+    - english: short for pen 
+      german: Kuli
+      article: der
+      plural: Kulis
+
+    - english: smartphone 
+      german: Handy
+      article: das
+      plural: Handys
+
+    - english: sofa 
+      german: Sofa
+      article: das
+      plural: Sofas
+
+    - english: grandmother 
+      german: Oma
+      article: die
+      plural: Omas
+
+    - english: grandfather 
+      german: Opa
+      article: der
+      plural: Opas
+
+    - english: photo 
+      german: Foto
+      article: das
+      plural: Fotos
