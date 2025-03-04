@@ -24,6 +24,9 @@ class NounResults:
             msg += f"\n Correct plural -> {self.noun.plural_word}"
 
         return msg
+    
+    def all_correct(self) -> bool:
+        return self.points == self.max_points
         
 
 @dataclass

@@ -34,6 +34,7 @@ class ExamTestCase(unittest.TestCase):
         self.assertFalse(result.article_is_correct)
         self.assertEqual(result.points, 2)
         self.assertEqual(result.noun, self.noun)
+        self.assertFalse(result.all_correct())
 
     def test_two_answer_incorrect(self) -> None:
         result = exam.noun_check_answer(
@@ -47,6 +48,7 @@ class ExamTestCase(unittest.TestCase):
         self.assertFalse(result.article_is_correct)
         self.assertEqual(result.points, 1)
         self.assertEqual(result.noun, self.noun)
+        self.assertFalse(result.all_correct())
 
     def test_all_answer_correct(self) -> None:
         result = exam.noun_check_answer(
@@ -60,3 +62,4 @@ class ExamTestCase(unittest.TestCase):
         self.assertTrue(result.article_is_correct)
         self.assertEqual(result.points, 3)
         self.assertEqual(result.noun, self.noun)
+        self.assertTrue(result.all_correct())
