@@ -1,0 +1,15 @@
+words:
+    - english: message
+      german: Nachricht
+      article: die
+      plural: Nachrichten
+
+    - english: buisness card
+      german: Visitenkarte
+      article: die
+      plural: Visitenkarten
+
+    - english: keyboard
+      german: Tastatur
+      article: die
+      plural: Tastaturen

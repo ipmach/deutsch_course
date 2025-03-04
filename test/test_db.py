@@ -5,7 +5,7 @@ import db_op.schema as sc
 import unittest
 
 
-def fake_loader():
+def fake_loader(path):
     return [
         {
             "english_word": "hi",
