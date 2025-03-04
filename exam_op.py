@@ -20,7 +20,7 @@ class NounResults:
             msg += f"\n Correct article -> {self.noun.article}"
         if not self.german_is_correct:
             msg += f"\n Correct word -> {self.noun.german_word}"
-        if not self.article_is_correct:
+        if not self.plural_is_correct:
             msg += f"\n Correct plural -> {self.noun.plural_word}"
 
         return msg
