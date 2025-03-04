@@ -1,6 +1,6 @@
 
-import db.noun_db as db
-import db.schema as sc
+import db_op.noun_db as db
+import db_op.schema as sc
 
 import unittest
 

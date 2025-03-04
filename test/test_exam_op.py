@@ -1,5 +1,5 @@
 
-import db.schema as sc
+import db_op.schema as sc
 import exam_op as exam
 
 import unittest

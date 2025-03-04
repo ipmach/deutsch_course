@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-import db.schema as sc
+import db_op.schema as sc
 import typing as t
 
 
