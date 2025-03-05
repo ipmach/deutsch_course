@@ -158,3 +158,83 @@ words:
       german: Sohn
       article: der
       plural: Söhne
+
+    - english: password 
+      german: Passwort
+      article: das
+      plural: Passwörter
+
+    - english: book
+      german: Buch
+      article: das
+      plural: Bücher
+
+    - english: picture 
+      german: Bild
+      article: das
+      plural: Bilder
+
+    - english: father 
+      german: Vater
+      article: der
+      plural: Väter
+
+    - english: mather 
+      german: Mutter
+      article: die
+      plural: Mütter
+
+    - english: brother 
+      german: Bruder
+      article: der
+      plural: Brüder
+
+    - english: daugther 
+      german: Tochter
+      article: die
+      plural: Töchter
+
+    - english: husband 
+      german: Mann
+      article: der
+      plural: Männer
+
+    - english: child 
+      german: Kind
+      article: das
+      plural: Kinder
+
+    - english: printer 
+      german: Drucker
+      article: der
+      plural: Drucker
+
+    - english: computer 
+      german: Computer
+      article: der
+      plural: Computer
+
+    - english: calendar 
+      german: Kalender
+      article: der
+      plural: Kalender
+
+    - english: pen 
+      german: Kugelschreiber
+      article: der
+      plural: Kugelschreiber
+
+    - english: key 
+      german: Schlüssel
+      article: der
+      plural: Schlüssel
+
+    - english: armchair 
+      german: Sessel
+      article: der
+      plural: Sessel 
+
+    - english: wallet 
+      german: Geldbeutel
+      article: der
+      plural: Geldbeutel 
