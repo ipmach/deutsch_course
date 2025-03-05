@@ -41,7 +41,10 @@ class NounDB:
         return self.__list[idx]
 
     def sample(self, n: int, seed: int = 0) -> t.Iterator[sc.NounSchema]:
+        indices = list(range(len(self)))
         for i in range(n):
             random.seed(seed + i)
-            idx = random.randint(0, len(self) - 1) 
-            yield self[idx]
+            idx = random.randint(0, len(indices) - 1) 
+            position = indices[idx]
+            indices.remove(position)            
+            yield self[position]
