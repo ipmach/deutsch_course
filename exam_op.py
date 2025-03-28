@@ -36,6 +36,12 @@ class ExamQuestion:
 
 
 def noun_question(elem: sc.NounSchema) -> ExamQuestion:
+    if elem.plural_word == "<None>":
+        return ExamQuestion(
+        title=f"Translate the word: {elem.english_word}",
+        parts=["word", "article"]
+    )
+
     return ExamQuestion(
         title=f"Translate the word: {elem.english_word}",
         parts=["word", "article", "plural"]
@@ -45,11 +51,16 @@ def noun_question(elem: sc.NounSchema) -> ExamQuestion:
 def noun_check_answer(
     elem: sc.NounSchema, answer: t.Dict[str, str]
 ) -> NounResults:
+    if elem.plural_word == "<None>":
+        plural_correct = True
+    else:
+        plural_correct = answer["plural"] == elem.plural_word
+
     return NounResults(
         article_is_correct=(a := answer["article"] == elem.article),
         german_is_correct=(b := answer["word"] == elem.german_word),
-        plural_is_correct=(c := answer["plural"] == elem.plural_word),
-        points=int(a) + int(b) + int(c),
+        plural_is_correct=(plural_correct),
+        points=int(a) + int(b) + int(plural_correct),
         noun=elem,
     )
     
