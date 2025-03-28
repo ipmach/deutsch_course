@@ -303,3 +303,83 @@ words:
       german: Fitnessstudio
       article: das
       plural: Fitnessstudios 
+
+    - english: Monday 
+      german: Montag
+      article: der
+      plural: Montags
+
+    - english: Tuesday 
+      german: Dienstag
+      article: der
+      plural: Dienstags
+
+    - english: Wednesday 
+      german: Mittwoch
+      article: der
+      plural: Mittwochs
+
+    - english: Thursday 
+      german: Donnerstag
+      article: der
+      plural: Donnerstags
+
+    - english: Friday 
+      german: Freitag
+      article: der
+      plural: Freitags
+
+    - english: Saturday
+      german: Samstag
+      article: der
+      plural: Samstags
+
+    - english: Sunday 
+      german: Sonntag
+      article: der
+      plural: Sonntags
+
+    - english: time 
+      german: Zeit
+      article: die
+      plural: <None>
+
+    - english: Weekend 
+      german: Wochenende
+      article: das
+      plural: Wochenenden
+
+    - english: second 
+      german: Sekunde
+      article: die
+      plural: Sekunden
+
+    - english: minute 
+      german: Minute
+      article: die
+      plural: Minuten
+
+    - english: hour
+      german: Stunde
+      article: die
+      plural: Stunden
+
+    - english: day
+      german: Tag
+      article: der
+      plural: Tage
+
+    - english: week
+      german: Woche
+      article: die
+      plural: Wochen
+
+    - english: month
+      german: Monat
+      article: der
+      plural: Monate
+
+    - english: year
+      german: Jahr
+      article: das
+      plural: Jahre
