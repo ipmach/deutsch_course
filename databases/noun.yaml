@@ -238,3 +238,68 @@ words:
       german: Geldbeutel
       article: der
       plural: Geldbeutel 
+
+    - english: chess 
+      german: Schach
+      article: das
+      plural: <None>
+
+    - english: cinema
+      german: Kino
+      article: das
+      plural: Kinos
+
+    - english: museum
+      german: Museum
+      article: das
+      plural: Museen
+
+    - english: theater
+      german: Theater
+      article: das
+      plural: Theater
+
+    - english: coffee shop
+      german: Cafe
+      article: das
+      plural: Cafes
+
+    - english: exhibition
+      german: Ausstellung
+      article: die
+      plural: Ausstellungen
+
+    - english: nocturne club
+      german: Klub
+      article: der
+      plural: Klubs
+
+    - english: disco 
+      german: Disco
+      article: die
+      plural: Discos
+
+    - english: swimmingpool 
+      german: Schwimmbad
+      article: das
+      plural: Schwimmbäder
+
+    - english: concert 
+      german: Konzert
+      article: das
+      plural: Konzerte
+
+    - english: restaurant 
+      german: Restaurant
+      article: das
+      plural: Restaurants
+
+    - english: bar 
+      german: Bar 
+      article: die
+      plural: Bars 
+
+    - english: gym 
+      german: Fitnessstudio
+      article: das
+      plural: Fitnessstudios 
